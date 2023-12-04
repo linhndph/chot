@@ -5,10 +5,10 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="AdminController.php" class="nav-link">Home</a>
+        <a href="AdminController.php" class="nav-link">Trang chủ</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="ClientController.php" class="nav-link">Back to web</a>
+        <a href="ClientController.php" class="nav-link">Vào trang website</a>
       </li>
     </ul>
 
