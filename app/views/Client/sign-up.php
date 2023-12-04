@@ -1,4 +1,17 @@
+<style>
+     .capnhap{
+            background-color: #FF4500;
+            width: 100px;
+            height: 50px;
+            border-radius: 5px;
+            border-color: #FF4500;
+            color: #fff;
 
+        }
+        .capnhap:hover{
+            background-color: brown;
+        }
+</style>
 <form action="ClientController.php?act=dk" method="POST" enctype="multipart/form-data">
     <div class="sign-up-area pt-100 pb-70">
         <div class="container">
@@ -57,7 +70,7 @@
                                     
                                     
                                     <div class="col-lg-12 col-md-12 text-center">
-                                        <input type="submit"  value="Đăng ký" name="signup">
+                                        <input type="submit" class="capnhap"  value="Đăng ký" name="signup">
                                            
                                         <?php
                                             // var_dump($_SESSION['thongbao']);

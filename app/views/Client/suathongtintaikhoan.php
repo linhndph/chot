@@ -28,6 +28,11 @@
                                             <input type="hidden" name="idtaikhoan" id="name" class="form-control" required
                                                 data-error="Please enter your Username" placeholder="Username" value="<?php if(isset($id_tai_khoan)&&($id_tai_khoan>0)) echo $id_tai_khoan;?> ">
                                         </div>
+                                        <div class="col-lg-12 ">
+                                        <div class="form-group">
+                                            <input type="hidden" name="id_chuc_vu" id="name" class="form-control" required
+                                                data-error="Please enter your Username" placeholder="Username" value="<?php if(isset($id_chuc_vu)&&($id_chuc_vu>0)) echo $id_chuc_vu;?> ">
+                                        </div>
                                     <div class="col-lg-12 ">
                                         <div class="form-group">
                                             <input type="text" name="tendangnhap" id="name" class="form-control" required
@@ -49,7 +54,7 @@
                                     <div class="col-lg-12">
                                         <div class="form-group">
                                         <?php echo $hinh?>
-                                            <input type="file" name="img_tai_khoan" id="email" class="form-control" required
+                                            <input type="file" name="img_tai_khoan" id="email" class="form-control" 
                                                 data-error="Please enter img" placeholder="">
                                         </div>
                                     </div>
@@ -74,7 +79,7 @@
                                     
                                     
                                     <div class="col-lg-12 col-md-12 text-center">
-                                        <input type="submit"  value="Cập nhật" name="capnhat">
+                                        <input type="submit" class="capnhap"  value="Cập nhật" name="capnhat">
                                            
                                         <?php
                                             // var_dump($_SESSION['thongbao']);
@@ -94,3 +99,17 @@
         </div>
     </div>
     </form>
+    <style>
+        .capnhap{
+            background-color: #FF4500;
+            width: 100px;
+            height: 50px;
+            border-radius: 5px;
+            border-color: #FF4500;
+            color: #fff;
+
+        }
+        .capnhap:hover{
+            background-color: brown;
+        }
+    </style>

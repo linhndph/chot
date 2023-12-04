@@ -1,4 +1,17 @@
+<style>
+      .capnhap{
+            background-color: #FF4500;
+            width: 100px;
+            height: 50px;
+            border-radius: 5px;
+            border-color: #FF4500;
+            color: #fff;
 
+        }
+        .capnhap:hover{
+            background-color: brown;
+        }
+</style>
 <form action="ClientController.php?act=login" method="POST" enctype="multipart/form-data">
     <div class="sign-in-area pt-100 pb-70">
         <div class="container">
@@ -32,7 +45,7 @@
                                         <a class="forget" href="ClientController.php?act=quenmk">Quên mật khẩu?</a>
                                     </div>
                                     <div class="col-lg-12 col-md-12 text-center">
-                                        <input type="submit" value="Đăng nhập" name="login">
+                                        <input type="submit" class="capnhap" value="Đăng nhập" name="login">
                                            
                                         <?php
                                             // var_dump($_SESSION['thongbao']);

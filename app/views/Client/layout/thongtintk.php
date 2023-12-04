@@ -57,11 +57,7 @@
                 <a href="../controllers/AdminController.php">Đăng nhập vào trang quản trị</a>
             </div>';
             }
-            elseif($_SESSION['id_chuc_vu']== 2){
-                echo ' <div class="title">
-                <a href="../controllers/NhanvienController.php">Đăng nhập vào trang quản trị</a>
-            </div>';
-            }
+           
             else{
 
             }
@@ -69,11 +65,9 @@
     ?>
      <div class="title">
 <div class="form">
-<form action="ClientController.php?act=themdondatsan" method="POST">
-            <input class="a" style="margin-bottom:20px" type="submit" name="xemdondatsan" value="Xem giỏ hàng">
-        </form>
+
      <form action="ClientController.php?act=xemhoadon" method="POST">
-            <input  class="a" style="margin-left:10px;" type="submit" name="xemdondatsan" value="Xem hóa đơn ">
+            <input  class="a"  type="submit" name="xemdondatsan" value="Xem hóa đơn ">
         </form><br>
 </div>
     <div class="form">
